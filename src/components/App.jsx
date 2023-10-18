@@ -1,14 +1,11 @@
-import React from 'react';
-import 'index.css';
-import Profile from './Profile/Profile';
-
+// import React from 'react';
+// import 'index.css';
+import { Profile } from 'components/Profile/Profile';
 
 export const App = () => {
   return (
-    <div className='App'>
+    <div>
       <Profile />
     </div>
   );
 };
-
-export default App;
