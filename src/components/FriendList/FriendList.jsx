@@ -1,4 +1,3 @@
-import React from 'react';
 import css from './FriendList.module.css';
 
 export const FriendList = ({ friends }) => {
