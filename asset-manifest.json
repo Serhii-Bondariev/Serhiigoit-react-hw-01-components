@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/css/main.2e0f63a2.css",
-    "main.js": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/js/main.9fa28033.js",
+    "main.css": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/css/main.79b3cb12.css",
+    "main.js": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/js/main.6b6f3de7.js",
     "index.html": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/index.html",
-    "main.2e0f63a2.css.map": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/css/main.2e0f63a2.css.map",
-    "main.9fa28033.js.map": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/js/main.9fa28033.js.map"
+    "main.79b3cb12.css.map": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/css/main.79b3cb12.css.map",
+    "main.6b6f3de7.js.map": "/Serhii-Bondariev.github.io/goit-react-hw-01-components/static/js/main.6b6f3de7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e0f63a2.css",
-    "static/js/main.9fa28033.js"
+    "static/css/main.79b3cb12.css",
+    "static/js/main.6b6f3de7.js"
   ]
 }
