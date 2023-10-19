@@ -7,16 +7,6 @@
     box-shadow: rgba(136, 165, 191, 0.48) 0px 0px 7px -1px;
 }
 
-/* .friendsBase {
-    background-color: #fff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    margin: 0 auto;
-    padding: 30px;
-    width: 240px;
-
-} */
 
 .friendsList {
     display: grid;
@@ -36,35 +26,39 @@
 }
 
 .item {
+    padding: 15px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex: 1;
-    text-align: center;
-    border: 1px solid #82b5e1;
-    font-size: 16px;
+    flex: 1 1;
     color: #888;
-    font-family: monospace;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
 }
 
+
 .status {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    color: #888;
-    font-family: monospace;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
 }
 
 .avatar {
-    display: block;
-    margin: 0 auto 20px;
-    width: 100px;
+    margin: 0 25px;
+    width: 48px;
 }
+
 
 .name {
     font-family: monospace;
     font-size: 24px;
     font-weight: bold;
+}
+
+.onLine {
+    background-color: green;
+}
+
+.offLine {
+    background-color: red;
 }

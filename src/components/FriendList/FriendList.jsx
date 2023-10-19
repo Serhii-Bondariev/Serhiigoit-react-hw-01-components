@@ -1,25 +1,31 @@
 import React from 'react';
-import friends from 'data/friends.json';
-import css from './Friend.module.css';
-export const FriendList = () => {
+import css from './FriendList.module.css';
+
+export const FriendList = ({ friends }) => {
   return (
     <section className={css.friendsSection}>
-      <div>
-        <ul className={css.friendsList}>
-          <div class={css.cardItem}>
-            <li class={css.item.id}>
-              <span class={css.status}>{friends.isOnline}</span>
+      <ul className={css.friendsList}>
+        {friends.map(({ id, avatar, name, isOnline }) => (
+          <div className={css.cardItem} key={id}>
+            <li className={css.item}>
+              <span
+                className={
+                  isOnline
+                    ? `${css.status} ${css.onLine}`
+                    : `${css.status} ${css.offLine}`
+                }
+              ></span>
               <img
-                class={css.avatar}
-                src={friends.avatar}
+                className={css.avatar}
+                src={avatar}
                 alt="User avatar"
                 width="48"
               />
-              <p class={css.name}>{friends.name}</p>
+              <p className={css.name}>{name}</p>
             </li>
           </div>
-        </ul>
-      </div>
+        ))}
+      </ul>
     </section>
   );
 };
