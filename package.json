@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "prop-types": "^15.8.1",
     "terser-brunch": "^4.1.0"
   }
 }
