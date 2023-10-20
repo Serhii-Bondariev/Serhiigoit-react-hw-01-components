@@ -1,0 +1,43 @@
+.avatar {
+    margin: 0 25px;
+    width: 48px;
+}
+
+
+.name {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+
+.onLine {
+    background-color: green;
+}
+
+.offLine {
+    background-color: red;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+.item {
+
+    border-radius: 8px;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+    color: #888;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.cardItem {
+    display: flex;
+}
