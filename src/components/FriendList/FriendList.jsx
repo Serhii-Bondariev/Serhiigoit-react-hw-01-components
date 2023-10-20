@@ -1,4 +1,3 @@
-// FriendList.jsx
 import React from 'react';
 import { FriendListItem } from '../FriendListItem/FriendListItem'; // Використовуємо іменований імпорт
 import css from './FriendList.module.css';
