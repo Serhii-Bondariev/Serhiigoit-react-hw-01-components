@@ -1,10 +1,9 @@
 import css from './FriendListItem.module.css';
 
 export const FriendListItem = ({ friend }) => {
-  const { id, avatar, name, isOnline } = friend;
-
+  const { avatar, name, isOnline } = friend;
   return (
-    <div className={css.cardItem} key={id}>
+    <div className={css.cardItem}>
       <li className={css.item}>
         <span
           className={
@@ -19,5 +18,3 @@ export const FriendListItem = ({ friend }) => {
     </div>
   );
 };
-
-export default FriendListItem;

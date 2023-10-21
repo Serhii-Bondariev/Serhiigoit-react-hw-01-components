@@ -1,13 +1,10 @@
-import React from 'react';
 import css from './Statistics.module.css';
-import data from 'data/data.json';
 
-export const Statistics = ({ title = false }) => {
+export const Statistics = ({ data, title = false }) => {
   return (
     <div className={css.statisticsBase}>
       <section className={css.statistics}>
         {title && <h2 className={css.title}>{title}</h2>}
-
         <ul className={css.statList}>
           {data.map(stat => (
             <li className={css.item} key={stat.id}>
