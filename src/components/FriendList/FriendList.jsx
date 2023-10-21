@@ -12,3 +12,5 @@ export const FriendList = ({ friends }) => {
     </section>
   );
 };
+
+export default FriendList;

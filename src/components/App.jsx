@@ -14,9 +14,11 @@ export const App = () => {
   return (
     <div>
       <Profile user={user} />
-      <Statistics title="Upload stats" stat={data} />
+      <Statistics title="Upload stats" data={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
   );
 };
+
+export default App;

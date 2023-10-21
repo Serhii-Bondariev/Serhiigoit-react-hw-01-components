@@ -18,3 +18,5 @@ export const FriendListItem = ({ friend }) => {
     </div>
   );
 };
+
+export default FriendListItem;
